@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MakerJumpToSelectionPlugin", "JumpToSelectionPlugin\MakerJumpToSelectionPlugin.shproj", "{D5990054-54A0-45F6-9DF0-3D351C93E2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS2_MakerJumpToSelectionPlugin", "HS2_JumpToSelectionPlugin\HS2_MakerJumpToSelectionPlugin.csproj", "{1784282C-00D2-4FCB-B093-4F41EED54A16}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		JumpToSelectionPlugin\JumpToSelectionPlugin.projitems*{1784282c-00d2-4fcb-b093-4f41eed54a16}*SharedItemsImports = 4
+		JumpToSelectionPlugin\JumpToSelectionPlugin.projitems*{d5990054-54a0-45f6-9df0-3d351c93e2a8}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1784282C-00D2-4FCB-B093-4F41EED54A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1784282C-00D2-4FCB-B093-4F41EED54A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1784282C-00D2-4FCB-B093-4F41EED54A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1784282C-00D2-4FCB-B093-4F41EED54A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72093C4E-8714-4978-B75B-A79DCF6B579B}
+	EndGlobalSection
+EndGlobal
