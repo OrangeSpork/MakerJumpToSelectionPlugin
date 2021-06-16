@@ -7,9 +7,12 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MakerJumpToSelectionPlugin"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS2_MakerJumpToSelectionPlugin", "HS2_JumpToSelectionPlugin\HS2_MakerJumpToSelectionPlugin.csproj", "{1784282C-00D2-4FCB-B093-4F41EED54A16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI_MakerJumpToSelectionPlugin", "AI_MakerJumpToSelectionPlugin\AI_MakerJumpToSelectionPlugin.csproj", "{D51DC7CD-36FC-4167-9F91-B5FC33A13D6D}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		JumpToSelectionPlugin\JumpToSelectionPlugin.projitems*{1784282c-00d2-4fcb-b093-4f41eed54a16}*SharedItemsImports = 4
+		JumpToSelectionPlugin\JumpToSelectionPlugin.projitems*{d51dc7cd-36fc-4167-9f91-b5fc33a13d6d}*SharedItemsImports = 4
 		JumpToSelectionPlugin\JumpToSelectionPlugin.projitems*{d5990054-54a0-45f6-9df0-3d351c93e2a8}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +24,10 @@ Global
 		{1784282C-00D2-4FCB-B093-4F41EED54A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1784282C-00D2-4FCB-B093-4F41EED54A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1784282C-00D2-4FCB-B093-4F41EED54A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51DC7CD-36FC-4167-9F91-B5FC33A13D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51DC7CD-36FC-4167-9F91-B5FC33A13D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51DC7CD-36FC-4167-9F91-B5FC33A13D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51DC7CD-36FC-4167-9F91-B5FC33A13D6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

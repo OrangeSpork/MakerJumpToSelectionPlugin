@@ -17,7 +17,11 @@ namespace MakerJumpToSelectionPlugin
 {
     [BepInPlugin(GUID, PluginName, Version)]
     [BepInDependency(KoikatuAPI.GUID, KoikatuAPI.VersionConst)]
+#if HS2
     [BepInProcess("HoneySelect2.exe")]
+#else
+    [BepInProcess("AI-Syoujyo.exe")]
+#endif
     public class MakerJumpToSelectionPlugin : BaseUnityPlugin
     {
 
@@ -133,13 +137,20 @@ namespace MakerJumpToSelectionPlugin
         private static byte[] jumpSelIcon;
         private static void LoadJumpIcon()
         {
+#if HS2
             using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream($"HS2_JumpToSelectionPlugin.resources.jump_icon.png"))
+#else
+            using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream($"AI_JumpToSelectionPlugin.resources.jump_icon.png"))
+#endif
             {
                 jumpIcon = new byte[stream.Length];
                 stream.Read(jumpIcon, 0, jumpIcon.Length);
             }
-
+#if HS2
             using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream($"HS2_JumpToSelectionPlugin.resources.jump_icon_sel.png"))
+#else
+            using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream($"AI_JumpToSelectionPlugin.resources.jump_icon_sel.png"))
+#endif
             {
                 jumpSelIcon = new byte[stream.Length];
                 stream.Read(jumpSelIcon, 0, jumpSelIcon.Length);
